@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/images"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fitness24 Gym"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_margin="20dp"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="email: fitness24@gmail.com"
+        android:textSize="25sp"
+        android:layout_alignParentRight="true"
+        android:fontFamily="sans-serif-light"
+        android:layout_margin="20dp"
+        android:textColor="@android:color/white"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/email"
+        android:text="call: 12345 67890"
+        android:textSize="28sp"
+        android:layout_alignParentRight="true"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginRight="20dp"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>
