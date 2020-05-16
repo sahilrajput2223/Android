@@ -23,6 +23,7 @@ public class PhrasesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_phrases);
 
+
         //Create ArrayList For Words List With Word Datatype
         final ArrayList<Word> words = new ArrayList<Word>();
         words.add(new Word("Where are you going?", "minto wuksus", R.raw.phrase_where_are_you_going));

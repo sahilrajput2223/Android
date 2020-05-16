@@ -3,6 +3,8 @@ package com.example.android.miwok;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -18,10 +20,14 @@ public class NumbersActivity extends AppCompatActivity {
         }
     };
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_numbers);
+
+
+
         //Create ArrayList For Words List With Word Datatype
         final ArrayList<Word> words = new ArrayList<Word>();
         words.add(new Word("one", "lutti", R.drawable.number_one, R.raw.number_one));
