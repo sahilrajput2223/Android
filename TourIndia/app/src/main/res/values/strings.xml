@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Tour India</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contact">Contact: +91-45698 25416</string>
+    <string name="email">EMail: TourIndia@gmail.com</string>
+    <string name="name">Name: </string>
+    <string name="about">About: </string>
+    <string name="state">State: </string>
+    <string name="like">Like: </string>
+    <string name="historical">Historical</string>
+    <string name="beach">Beach</string>
+    <string name="hill_station">Hill Station</string>
+    <string name="city">City</string>
+    <string name="aboutTab">About</string>
+    <string name="delhi">Delhi</string>
+    <string name="union">Union Territory</string>
+    <string name="mumbai">Mumbai</string>
+    <string name="maharatra">Maharatra</string>
+    <string name="ahmedabad">Ahmedabad</string>
+    <string name="karnataka">Karnataka</string>
+
+    <string name="varkala_name">Varkala Beach </string>
+    <string name="varkara_about">Varkala Beach, also known as Papanasham Beach, is a cliff beach situated in the Varkala town of Thiruvananthapuram District, India. The beach skirts the Arabian Sea, part of the Indian Ocean.</string>
+    <string name="varkara_state">Thiruvananthapuram</string>
+
+    <string name="palolem_name">Palolem Beach </string>
+    <string name="palolem_about">Palolem Beach is situated in Canacona in southern Goa, India. The beach attracts many international tourists, mainly during the winter season between November and March.</string>
+    <string name="palolem_state">Goa</string>
+
+
+    <string name="gokarna_name">Gokarna Beach</string>
+    <string name="gokarna_about">Gokarna is a small temple town on the western coast of India in the Kumta taluk of Uttara Kannada district of the state of Karnataka.</string>
+    <string name="gokarna_state">Karnataka</string>
+
+    <string name="kufri_name">Kufri</string>
+    <string name="kufri_about">Kufri is a small hill station in Shimla district of Himachal Pradesh state in India. It is located 20 km from the state capital Shimla on the National Highway No.22.</string>
+    <string name="kufri_state">Himachal Pradesh</string>
+
+    <string name="Chail_name">Chail</string>
+    <string name="Chail_about">Chail is a hill station in Himachal Pradesh, India. It is 44 kilometres (27 mi) from Shimla and 45 kilometres (28 mi) from Solan. It is known for its salubrious beauty and virgin forests.", getResources().getString(R.string.state) +"Himachal Pradesh</string>
+    <string name="Chail_state">Himachal Pradesh</string>
+
+    <string name="taj_name">Taj Mahel</string>
+    <string name="taj_about">The Taj Mahal lit. Crown of the Palace is an ivory-white marble mausoleum on the southern bank of the river Yamuna in the Indian city of Agra.</string>
+    <string name="taj_state">Agra</string>
+
+    <string name="minar_name">Qutub Minar</string>
+    <string name="minar_about">The Qutb Minar, also spelled as Qutub Minar and Qutab Minar, is a minaret and victory tower that forms part of the Qutb complex which is built on hindu temple, a UNESCO World Heritage Site in the Mehrauli area of Delhi, India</string>
+    <string name="minar_state">Delhi</string>
+
+</resources>
